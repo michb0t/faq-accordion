@@ -1,0 +1,215 @@
+:root {
+    --txt-blue-500: hsl(240, 6%, 50%);
+    --txt-blue-600: hsl(237, 12%, 33%);
+    --txt-blue-900: hsl(238, 29%, 16%);
+    --text-red-400: hsl(14, 88%, 65%);
+    --grd-violet: hsl(273, 75%, 66%);
+    --grd-blue: hsl(240, 73%, 65%);
+    --divider-blue: hsl(240, 6%, 50%);
+    --text-sm: 0.75rem;
+    --text-md: 0.9rem;
+}
+
+/* Base Styles */
+
+html {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.4;;
+}
+
+body {
+    background-image: linear-gradient(210deg, var(--grd-violet), var(--grd-blue));
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Card Component  */
+
+.container {
+    background-color: white;
+    margin: 0 15px;
+    padding-bottom: 3rem;
+    border-radius: 2rem;
+    max-width: 55rem;
+    box-shadow: 0 15px 25px 0 rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Images */
+
+/* mobile images */
+.card_header {
+    padding-bottom: 10%;
+
+}
+.mob_images {
+    position: absolute;
+    right: 25%;
+    height: 0;
+}
+
+.icon-women {
+    position: relative;
+    top: -6.7rem;
+    left: 1.5rem;
+}
+
+.icon-shadow {
+    position: relative;
+    top:-12rem;
+    left: 3rem;
+}
+
+/* desktop images */
+
+.desk_images {
+    height: 0;
+}
+.desk-woman {    
+    position: relative;
+    bottom: 3rem;
+    left: -2rem;
+}
+
+.desk-bg {
+    position: relative;
+    top: -40rem;
+    max-width: 120%;
+    left: -5rem;
+}
+
+.box {
+    position: relative;
+    top: -17rem;
+    left: -5rem;
+}
+
+
+
+/* Questions */
+
+.card_content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 15px;
+    padding-top: 5rem;
+}
+
+.card_title {
+    margin-bottom: 2rem;
+}
+
+/* question box */
+.q-card {
+    text-align: left;
+    margin: 0 15px;
+    padding: 20px 0;
+    border-bottom: 1px solid lightgray;
+}
+
+.q-card:last-child {
+    border-bottom: 1px solid lightgray;
+}
+
+/* question */
+
+.q-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: var(--text-md);
+
+}
+
+.q-line:hover {
+    color: var(--text-red-400);
+    cursor: pointer;
+}
+.q-line > img {
+    height: 0.5rem;
+}
+
+.q-line > img:hover {
+    cursor: pointer;
+
+}
+
+/* answer */
+
+.a-line {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.a-line {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+}
+
+/* Javascript active states  */
+
+.q-card.active .arrow {
+    transform: scaleY(-1);
+}
+
+.q-card.active .q-line {
+    font-weight: 700;
+}
+
+.q-card.active .a-line {
+    opacity: 1;
+    overflow: visible;
+    max-height: 100%;
+    font-size: var(--text-sm);
+    padding: 10px 10px 10px 0px;
+}
+
+
+/* Media query */
+
+@media (max-width: 699px) {
+    .hide-for-desktop {
+        display: block;
+    }
+    .hide-for-mobile {
+        display:none;
+    }
+}
+
+
+@media (min-width: 700px) {
+    .hide-for-desktop {
+        display: none;
+    }
+    .hide-for-mobile {
+        display:block;
+    }
+
+    .container {
+        flex-direction: row;
+        position: static;
+        padding: 25px 30px;
+    }
+
+    .card_content {
+        padding-top: 1rem;
+    }
+}
+
+/* Attribution */
+.attribution { font-size: 11px; text-align: center; margin: 10px}
+.attribution a { color:white; }
