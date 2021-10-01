@@ -29,8 +29,9 @@ Users should be able to:
 - Hide/Show the answer to a question when the question is clicked
 
 ### Screenshot
+![desktop-view](https://user-images.githubusercontent.com/81781093/135547396-7f81acc1-0022-4660-b29e-63a2df704b79.png)
+![mobile-view](https://user-images.githubusercontent.com/81781093/135547989-035b3de8-06f1-45b1-8aac-51bfef59c545.png)
 
-![](./screenshot.jpg)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
@@ -42,8 +43,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Link to Github Solution](https://github.com/michb0t/faq-accordion)
+- Live Site URL: [Link to Live URL](https://michb0t.github.io/faq-accordion/)
 
 ## My process
 
