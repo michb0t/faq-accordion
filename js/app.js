@@ -7,5 +7,3 @@ for (let i = 0; i < qcard.length; i++) {
         this.classList.toggle("active")
     })
 }
-
-

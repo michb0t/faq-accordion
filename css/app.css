@@ -37,7 +37,7 @@ body {
     margin: 0 15px;
     padding-bottom: 3rem;
     border-radius: 2rem;
-    max-width: 55rem;
+    max-width: 25rem;
     box-shadow: 0 15px 25px 0 rgba(0, 0, 0, 0.3);
     display: flex;
     flex-direction: column;
@@ -182,6 +182,7 @@ body {
 /* Media query */
 
 @media (max-width: 699px) {
+
     .hide-for-desktop {
         display: block;
     }
@@ -203,8 +204,12 @@ body {
         flex-direction: row;
         position: static;
         padding: 25px 30px;
+        max-width: 50rem;
     }
-
+    .card_title {
+        text-align: left;
+        padding-left: 16px;
+    }
     .card_content {
         padding-top: 1rem;
     }
