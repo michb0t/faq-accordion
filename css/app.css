@@ -76,6 +76,7 @@ body {
 .desk_images {
     height: 0;
 }
+
 .desk-woman {    
     position: relative;
     bottom: 3rem;
@@ -84,9 +85,9 @@ body {
 
 .desk-bg {
     position: relative;
-    top: -40rem;
+    top: -37rem;
     max-width: 120%;
-    left: -5rem;
+    left: -6rem;
 }
 
 .box {
