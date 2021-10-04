@@ -49,10 +49,13 @@ body {
 /* Images */
 
 /* mobile images */
+
+
 .card_header {
     padding-bottom: 10%;
 
 }
+
 .mob_images {
     position: absolute;
     right: 30%;
@@ -73,6 +76,17 @@ body {
 
 /* desktop images */
 
+.inner {
+    margin-left: -2rem;
+    overflow-x: hidden;
+    bottom: 2rem;
+}
+
+.outer {
+    position: relative;
+    height: 0;
+}
+
 .desk_images {
     height: 0;
 }
@@ -81,6 +95,7 @@ body {
     position: relative;
     bottom: 3rem;
     left: -2rem;
+
 }
 
 .desk-bg {
@@ -92,8 +107,8 @@ body {
 
 .box {
     position: relative;
-    top: -17rem;
-    left: -5rem;
+    top: -16rem;
+    left: -7rem;
 }
 
 
